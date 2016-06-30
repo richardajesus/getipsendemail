@@ -4,6 +4,8 @@
 ## Escrito por: Richard Amaral de Jesus
 ## E-mail: richard.ajesus@gmail.com
 ## Exemplo de uso: ./getip.sh start
+## Agendamento feito no crontab: # crontab -e
+## */30 * * * *  /root/scripts/getip.sh start
 
 function start(){
 	TITULO_EMAIL="TITULO DO EMAIL"
