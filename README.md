@@ -1,5 +1,6 @@
 # Consulta IP Público
 Faz consulta do IP público em um site na internet e envia a informação por email usando shell script.
+Recomendado para utilização em servidores remotos que não tem IP fixo e/ou domínio.
 
 # Requisitos
 <p>wget => <a href="https://www.gnu.org/software/wget/" target="_blank"> https://www.gnu.org/software/wget/</a> <br />
